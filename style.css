@@ -1,0 +1,198 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #111;
+  height: 100vh;
+}
+
+.wrapper i, span{
+  position: fixed;
+  bottom: -180px;
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+  text-shadow: 0 0 50px #39ff14,
+    0 0 100px #39ff14,
+    0 0 150px #39ff14,
+    0 0 200px #39ff14;;
+  animation: animate 10s linear infinite;
+}
+
+.wrapper i {
+  font-size: 5rem;
+}
+
+.wrapper i:nth-child(1) {
+  left: 60px;
+  animation-delay: 0.6s;
+}
+
+.wrapper i:nth-child(2) {
+  left: 10%;
+  animation-delay: 3s;
+  
+}
+
+.wrapper i:nth-child(3) {
+  left: 25%;
+  animation-delay: 2s;
+}
+
+.wrapper i:nth-child(4) {
+  left: 30%;
+  animation-delay: 5s;
+  
+}
+
+.wrapper i:nth-child(5) {
+  left: 50%;
+  animation-delay: 1s;
+}
+
+.wrapper i:nth-child(6) {
+  left: 40%;
+  animation-delay: 7s;
+}
+
+.wrapper i:nth-child(7) {
+  left: 60%;
+  animation-delay: 6s;
+  
+}
+
+.wrapper i:nth-child(8) {
+  left: 70%;
+  animation-delay: 8s;
+  
+}
+
+.wrapper i:nth-child(9) {
+  left: 80%;
+  animation-delay: 6s;
+
+}
+
+.wrapper i:nth-child(10) {
+  left: 90%;
+  animation-delay: 4s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  } 80% {
+    opacity: 0.7;
+  } 100% {
+    transform: translateY(-800px) rotate(180deg);
+    opacity: 0;
+  }
+}
+
+.images img {
+  border-radius: 50%;
+}
+
+.images img:hover {
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 0 50px #0ef,
+      0 0 100px #0ef,
+      0 0 150px #0ef;
+
+}
+
+
+.link a {
+  transition: .5s ease-in-out;
+  border-radius: 5rem;
+}
+
+.button1 a, .button2 a, .button3 a, .button4 a, .button5 a, .button6 a {
+   background-color: white;
+}
+
+.button1 a:hover {
+  background-color: #C724B1;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #C724B1;
+}
+
+.button2 a:hover {
+  background-color: #4D4DFF;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #4D4DFF;
+}
+
+.button3 a:hover {
+  background-color: #E0E722;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #E0E722; 
+}
+
+.button4 a:hover {
+  background-color: #FFAD00;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #FFAD00;
+}
+
+.button5 a:hover {
+  background-color: #D22730;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #D22730;
+}
+
+.button6 a:hover {
+  background-color: #DB3EB1;
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px #DB3EB1;
+}
+
+
+
+
+
+@media screen and  (min-width : 0px) {
+  .link a {
+    width: 100% ;
+  }
+} 
+
+@media screen and   (min-width : 480px) {
+  .link a {
+    width: 100% ;
+  }
+} 
+
+@media screen and  (min-width : 768px) {
+  .link a {
+    width: 75% ;
+  }
+}
+
+ @media screen and  (min-width : 1024px) {
+  .link a {
+    width: 75% ;
+  }
+} 
+
+@media screen and  (min-width : 1200px) {
+  .link a {
+    width: 50% ;
+    
+  }
+} 
+
+@media screen and (min-width : 1924px) {
+  .link a {
+    width: 50%;
+  }
+}
+
+
+
